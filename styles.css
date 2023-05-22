@@ -48,3 +48,16 @@ p {
     justify-content: center;
 }
 
+.bottom {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 12px;
+}
+p {
+    justify-content: center;
+    align-items: center;
+}
+
