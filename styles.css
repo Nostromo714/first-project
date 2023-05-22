@@ -1,1 +1,50 @@
 /*styles.css*/
+
+body {
+    padding: auto;
+    margin: auto;
+    
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    background-color: aqua;
+   
+    
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    flex:1;
+}
+
+.top, .middle, .bottom {
+    display: flex;
+}
+
+.top-left {
+  
+    padding: 50px;
+    background-color: bisque;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-row {
+
+}
+.middle {
+    flex-direction: column;
+    justify-content: center;
+}
+
