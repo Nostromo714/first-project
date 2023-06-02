@@ -1,24 +1,25 @@
 /*styles.css*/
 
 body {
-    padding: auto;
+   /* padding:100px;
     margin: auto;
-    
+    /*padding-left: 30px;*/
 }
 
 .header {
     display: flex;
     padding: 10px;
     gap: 20px;
-    background-color: aqua;
-   
-    
-}
+    background-color: #1f2937;
+}   
+
 
 .links {
     display: flex;
-    gap: 10px;
-    flex:1;
+    gap: 50px;
+    flex: 1;
+    justify-content: flex-end;
+    
 }
 
 .top, .middle, .bottom {
@@ -26,47 +27,85 @@ body {
 }
 
 .top-left {
-    max-width: 200px;
-    min-height: fit-content;
-    padding: 50px;
-    background-color: bisque;
+   
+   padding: 100px;
+    background-color:#1f2937;
+    color: white;
 }
+/*
+h1 {
+    font-weight:;
+}*/
 
 .top-image {
-    padding: 100px;
-    background-color:bisque;
+    flex:auto;
+    background-color:#1f2937;
+   justify-content: end;
+   padding: 100px;
 
 }
 
-.button {
-    display: flex;
-    justify-content:flex-start;
+button {
+   color:aliceblue;
+   background-color:#3882f6;
 }
 
-p {
-    display: flex;
-    flex-wrap: wrap;
+a {
+    color:white;
+    text-decoration: none;
 }
+
+/*
 .image-row {
-
+    width: 100%;
+    background-color: pink;
+    display: flex;
 }
-.middle {
-    padding: 100px;
+
+.image-column {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.middle {
+    max-width: fit-content;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
 }
+.middle-top{
+   
+    background-color: pink;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 
 .bottom {
-    background-color: beige;
+    background-color: rgb(211, 211, 42);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0%;
-    padding: 12px;
+    padding:100;
 }
 p {
     justify-content:center;
     align-items: center;
 }
 
+.image-row {
+    display: flex;
+    gap: 20px;
+    padding: 12px;
+    justify-content:center;
+}
+
+.image-column {
+    display: flex;
+    gap: 20px;
+}
